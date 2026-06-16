@@ -116,27 +116,6 @@ The human researcher reviews the Codex output, changed files, verification resul
 
 Upload the finalized report to web-based ChatGPT before requesting the next plan. The uploaded report becomes reviewed context for subsequent modifications, but it should not override executable truth, current reference documents, or verified repository state.
 
-## Publication and Review Checklist
-
-Before publishing updates to this repository:
-
-- [ ] Markdown renders correctly on GitHub.
-- [ ] Internal links resolve.
-- [ ] No API keys, credentials, tokens, private data, or local-only paths are included.
-- [ ] SOP changes are scoped and reviewable.
-- [ ] The plan-packet format remains stable unless intentionally revised.
-- [ ] Generated outputs and temporary artifacts are excluded.
-- [ ] The README links to the current SOP and source guide.
-
-## Contribution Policy
-
-Changes to these workflow documents should be made through a branch and pull request. Pull requests should describe:
-
-- the workflow problem being solved;
-- the affected SOP sections;
-- whether the Codex packet format changes;
-- whether existing plans or archived reports need migration;
-- any new privacy, evidence, or publication risks.
 
 ## Maintenance Notes
 
@@ -144,4 +123,9 @@ When the workflow changes, update the SOP first. When the standardized Codex pac
 
 ## License
 
-Add a license file before treating this repository as reusable public documentation. If no license is provided, reuse rights may be ambiguous.
+All Codex workflows and SOP documents in this project are licensed under the [CC BY 4.0 (Creative Commons Attribution 4.0 International License)](http://creativecommons.org/licenses/by/4.0/).
+
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY--4.0-lightgrey.svg
